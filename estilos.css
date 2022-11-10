@@ -1,0 +1,164 @@
+	/*=====estilos del cuerpo de la página======*/
+
+body{
+	background-color:#d1ccc0;
+	
+    }
+h1, h3 {
+	
+	font-family: sans-serif;
+	color:#A65B1A; 
+	 
+	
+    }
+
+h1 { font-size: 1.5em;
+    text-align:center;
+    font-weight:bold;
+    }
+
+h3 { font-size: .8em; }
+
+
+       /*=====estilos del div de la página======*/
+
+#cabecera{
+	background-color:#f6e58d;
+	margin-right:auto;   
+	margin-left:auto;
+    
+	height:75%;
+	width:90%;
+    padding:1%;
+	
+    border:3px solid #FCFEFF;
+    border-radius:10px;
+	-moz-border-radius:10px;
+    	-webkit-border-radius:10px;
+	}
+
+
+
+#contenido{
+	background-color:#f6e58d;
+	margin-right:auto;   
+	margin-left:auto;
+    margin-top:5px;
+	height:auto;
+	width:90%;
+	padding:1%;
+    
+    border:3px solid #FCFEFF;
+    border-radius:10px;
+	-moz-border-radius:10px;
+    	-webkit-border-radius:10px;
+	}
+
+
+#pie{
+	background-color:#f9ca24;
+	margin-right:auto;   
+	margin-left:auto;
+    margin-top:5px;
+	height:6%;
+	width:90%;
+	padding:1%;
+	
+    border:3px solid #FCFEFF;
+    border-radius:10px;
+	-moz-border-radius:10px;
+    	-webkit-border-radius:10px;
+
+	}
+
+        /*=====estilos de la tabla reporte======*/
+table{
+	border:1px solid;
+	border-collapse:collapse;
+	width:70%;
+    
+	
+    }
+
+table td{
+	font: normal 12px Arial, Helvetica, sans-serif; 
+	background:#fff; 	 
+	border:2px solid #A65B1A;
+	padding:10px;
+
+
+	}
+
+
+table th{
+	background-color:#f9ca24; 
+	color:#FFFFFF; 
+	font-size:15px; 
+	font-weight:bold; 
+	border:2px solid #A65B1A;
+	text-align:center;
+	padding:10px;	
+    
+	} 
+    
+        /*=====estilos del formulario ======*/
+
+input.rounded {
+	
+	font-size:15px;
+	text-indent:5px;
+	
+	border: 2px solid #f9ca24;
+    border-radius: 10px;
+	padding-left:5px;
+
+    box-shadow: 2px 2px 3px #666;
+    outline:0;
+
+    
+	}
+
+input.rounded:focus {
+
+    border:2px solid;	
+    border-color:#A65B1A ;
+   
+    color:blue; 
+
+}
+
+
+textarea.desarea {
+    font-size:15px;
+	text-indent:5px;
+    border: 2px solid #f9ca24;
+    border-radius: 10px;
+    
+    padding-left:5px;
+
+    box-shadow: 2px 2px 3px #666;
+    outline:0;
+}
+
+textarea.desarea:focus {
+
+    border:2px solid;	
+    border-color:#A65B1A ;
+   
+    color:blue; 
+
+}
+
+
+button.boton {
+    background-color: #f9ca24;
+    border:2px sólido #A65B1A;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    Color:#706fd3;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+}
+
